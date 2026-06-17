@@ -560,7 +560,7 @@ class IndicatorStickyNotes(QApplication):
 def main():
     signal.signal(signal.SIGINT, signal.SIG_DFL)
        
-    '''
+
     icon_path=resource_path("icons", "logo.png")
     extras="" 
     
@@ -590,9 +590,9 @@ def main():
                                 extras=extras,
                                 icon_path=icon_path)
             return
-    '''
     
     app = IndicatorStickyNotes(sys.argv)
+    app.setApplicationName(about.__package__) # xprop WM_CLASS # *.desktop -> StartupWMClass  
     sys.exit(app.exec_())
     
 if __name__ == "__main__":
