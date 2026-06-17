@@ -24,6 +24,8 @@ Using:
 simple-sticky-notes
 ```
 
+If you would like the program to initialize at the start of the Linux session, use `simple-sticky-notes --autostart`.
+
 ## Install from source
 Installing `simple-sticky-notes` program
 

@@ -31,6 +31,9 @@ To start, use the command below:
 ```bash
 simple-sticky-notes
 ```
+
+If you would like the program to initialize at the start of the Linux session, use `simple-sticky-notes --autostart`.
+
 ## 2. More information
 
 If you want more information go to [doc](https://github.com/trucomanx-desktop/SimpleStickyNotes/blob/main/doc) directory

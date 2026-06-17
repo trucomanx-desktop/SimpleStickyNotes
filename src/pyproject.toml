@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simple_sticky_notes"
+version = "0.1.0"
+description = "Simple, always-on-bottom sticky notes for quick thoughts and reminders."
+readme = "README.md"
+authors = [{name = "Fernando Pujaico Rivera", email = "fernando.pujaico.rivera@gmail.com"}]
+maintainers = [{name = "Fernando Pujaico Rivera", email = "fernando.pujaico.rivera@gmail.com"}]
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "GPL-3.0-only WITH Classpath-Exception-2.0 OR BSD-3-Clause"
+license-files = ["LICENSE"]
+keywords = ["notes", "sticky"]
+dependencies = [
+    "PyQt5"
+]
+
+[project.urls]
+"Bug Reports" = "https://github.com/trucomanx-desktop/SimpleStickyNotes/issues"
+"Funding" = "https://trucomanx.github.io/en/funding.html"
+"Documentation" = "https://github.com/trucomanx-desktop/SimpleStickyNotes/tree/main/doc"
+"Source" = "https://github.com/trucomanx-desktop/SimpleStickyNotes"
+
+[project.scripts]
+"simple-sticky-notes" = "simple_sticky_notes.program:main"
+
+[tool.setuptools]
+packages = ["simple_sticky_notes", "simple_sticky_notes.modules"]
+
+[tool.setuptools.package-data]
+"simple_sticky_notes" = ["icons/*.png", "icons/*.svg"]
