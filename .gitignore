@@ -1,2 +1,4 @@
 /src/simple_sticky_notes/__pycache__/
 /src/simple_sticky_notes/modules/__pycache__/
+/src/dist/
+/src/simple_sticky_notes.egg-info/
