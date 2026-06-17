@@ -2,11 +2,12 @@
 
 Simple, always-on-top sticky notes for quick thoughts and reminders.
 
-![logo](screenshot.png)
+![logo](https://raw.githubusercontent.com/trucomanx-desktop/SimpleStickyNotes/main/screenshot.png)
 
 ## 1. Installing
 
 To install the package from [PyPI](https://pypi.org/project/simple_sticky_notes/), follow the instructions below:
+
 
 ### With pip
 
@@ -33,7 +34,7 @@ simple-sticky-notes
 ```
 ## 2. More information
 
-If you want more information go to [doc](https://github.com/trucomanx-desktop/SimpleStickyNotes/blob/main/doc) directory
+If you want more information go to [doc](https://github.com/trucomanx-desktop/SimpleStickyNotes/blob/main/doc) directory.
 
 ## 3. Buy me a coffee
 
