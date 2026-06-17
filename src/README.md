@@ -1,6 +1,6 @@
 # simple-sticky-notes
 
-Simple, always-on-top sticky notes for quick thoughts and reminders.
+Simple, always-on-bottom sticky notes for quick thoughts and reminders.
 
 ![logo](https://raw.githubusercontent.com/trucomanx-desktop/SimpleStickyNotes/main/screenshot.png)
 
