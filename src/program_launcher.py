@@ -18,10 +18,10 @@ cd src
 
 
 ## ubuntu ##
-python3 -m PyInstaller --onefile --windowed --name simple_sticky_notes --add-data "simple_sticky_notes/icons:icons" --collect-all PyQt5  program_launcher.py
+python3 -m PyInstaller --onefile --windowed --name simple-sticky-notes --add-data "simple_sticky_notes/icons:icons" --collect-all PyQt5  program_launcher.py
 
 ## windows ##
-python -m PyInstaller --onefile --windowed --name simple_sticky_notes --add-data "simple_sticky_notes/icons;icons" --collect-all PyQt5  program_launcher.py
+python -m PyInstaller --onefile --windowed --name simple-sticky-notes --add-data "simple_sticky_notes/icons;icons" --collect-all PyQt5  program_launcher.py
 
 '''
 
